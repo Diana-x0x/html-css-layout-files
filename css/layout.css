@@ -89,6 +89,7 @@
   color: #777777;
   font-size: 16px;
   margin-top: 5px;
+  padding-top: 18px;
 }
 
 .main__item {
@@ -105,6 +106,7 @@
   width: 270px;
   float: left;
   text-align: center;
+  line-height: 1.55em;
 }
 
 .main__item_name {
@@ -116,5 +118,13 @@
   font-size: 14px;
   color: #777777;
   margin-top: 18px;
+}
+
+.bottom {
+  padding-bottom: 120px;
+}
+
+.backgraund {
+  background: #f7f7f7;
 }
 /*# sourceMappingURL=layout.css.map */
