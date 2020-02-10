@@ -1,23 +1,20 @@
-.section {
-  height: 100vh;
+.header {
+  display: block;
   &__banner {
     background: url(../assets/first-bg.jpg) no-repeat 50% 50%;
     background-size: cover;
+    height: 100vh;
   }
-  &__wrapper {
-    width: 930px;
-    margin: 0 auto;
+  &__menu-position {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
   }
   &__icon {
     margin-top: 45px;
-    float: left;
   }
   &__menu {
+    margin-top: 53px;
     color: rgb(255, 255, 255);
-    margin-top: 41px;
-    float: right;
     display: block;
   }
   &__content {
@@ -29,6 +26,7 @@
     &_subtitle {
       font-size: 40px;
       color: rgb(255, 255, 255);
+      text-transform: none;
     }
 
     &_title {
@@ -68,10 +66,9 @@
   &__item {
     display: flex;
     justify-content: space-between;
-    margin-top: 80px;
-    &_container {
+    margin-top: 70px;
+    &_container-titles {
       width: 270px;
-      float: left;
       text-align: center;
       line-height: 1.55em;
     }
@@ -82,15 +79,46 @@
     &_text {
       font-size: 14px;
       color: rgb(119, 119, 119);
-      margin-top: 18px;
     }
+  }
+  &__conteiner-bottom {
+    padding-bottom: 120px;
+  }
+  &__imeges-about {
+    padding-left: 24px;
   }
 }
 
-.bottom {
-  padding-bottom: 120px;
+.backgraund-conteiner {
+  background: rgb(247, 247, 247);
 }
 
-.backgraund {
-  background: rgb(247, 247, 247);
+.transform {
+  text-transform: none;
+}
+.page-wrapper {
+  width: 930px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.conteiner-abaut {
+  /* display: flex;
+  justify-content: flex-start;*/
+  margin-top: 70px;
+  width: 560px;
+  text-align: right;
+  line-height: 1.55em;
+  &__text-float {
+    width: 270px;
+    float: left;
+    margin: 0 18px;
+  }
+  &__img-centr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
